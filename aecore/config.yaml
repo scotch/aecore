@@ -1,0 +1,14 @@
+application:
+  title: App Engine Site
+  description: Description here.
+  default_from_email: none
+
+aecore:
+  secret_key: CHANGE_TO_A_SECRET_KEY # We add this here for testing only
+  user_model: aecore.models.User
+  cookie_key: _aecore
+  cookie_max_age:
+  cookie_path: /
+  cookie_domain:
+  cookie_secure: false
+  cookie_httponly: false
